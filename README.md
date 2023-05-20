@@ -17,6 +17,7 @@ input Y,S0,S1,S2;
 output I0,I1,I2,I3,I4,I5,I6,I7;  
 reg I0,I1,I2,I3,I4,I5,I6,I7;  
 always @ (*)  
+
 begin  
 case ({S0,S1,S2})   
 3'd0 : {I0,I1,I2,I3,I4,I5,I6,I7} = {Y,7'd0};   
