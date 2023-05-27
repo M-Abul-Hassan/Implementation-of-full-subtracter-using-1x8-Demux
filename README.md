@@ -5,6 +5,7 @@ The circuit takes three binary inputs, A, B, and Bin, and produces two binary ou
 
 ## Program code:
 
+
 module full_sub(diff,borrow,Y0,Y1,Y2,Y3,Y4,Y5,Y6,Y7,A,B,Bin,X );  
 input A,B,Bin,X;  
 output diff,borrow,Y0,Y1,Y2,Y3,Y4,Y5,Y6,Y7;  
