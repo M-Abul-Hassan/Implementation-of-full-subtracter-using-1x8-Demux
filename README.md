@@ -8,6 +8,7 @@ The circuit takes three binary inputs, A, B, and Bin, and produces two binary ou
 
 module full_sub(diff,borrow,Y0,Y1,Y2,Y3,Y4,Y5,Y6,Y7,A,B,Bin,X );  
 input A,B,Bin,X;  
+
 output diff,borrow,Y0,Y1,Y2,Y3,Y4,Y5,Y6,Y7;  
 demux S1(.I0(Y0),.I1(Y1),.I2(Y2),.I3(Y3),.I4(Y4),.I5(Y5),.I6(Y6),.I7(Y7),.Y(X),.S0(A),.S1(B),.S2(Bin));  
 assign diff = Y1 | Y2 | Y4 |Y7;  
